@@ -9,6 +9,7 @@ import java.util.stream.IntStream;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -154,5 +155,28 @@ public class ThymeleafController {
 	@GetMapping("/ex07")
 	public void ex07() {
 		
+	}
+	
+	// ========================== 실습 ========================
+	@GetMapping("/quiz01")
+	public String quiz01() {
+		
+		SimpleVO vo = SimpleVO.builder()
+				.a(1)
+				.first("gildong")
+				.last("hong")
+				.regdate(LocalDateTime.now())
+				.build();
+		
+		return "view/quiz01";
+	}
+	
+	@GetMapping("/quiz01_result")
+	public String quiz01_result(@ModelAttribute("a") int a,
+								@ModelAttribute("name") String name) {
+		
+		
+	
+		return "view/quiz01_result";
 	}
 }

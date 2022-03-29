@@ -6,3 +6,21 @@ create user 'spring' identified by 'spring';
 
 # 권한부여
 grant all privileges on spring.* to 'spring';
+
+
+
+
+#############################
+# 1. mysql에서는 테이블이 대소문자를 가림
+# 2. number(10) -> int
+# 3. varchar2(바이트수) -> varchar(글자의 갯수)
+# 4. date -> timestamp
+# 5. 시퀀스명.nextval -> auto_increment(아무값을 입력하지 않아도 자동증가값)
+
+CREATE TABLE MEMO(
+	MNO INT PRIMARY KEY AUTO_INCREMENT,
+	MEMO VARCHAR(200) NOT NULL,
+	PHONE VARCHAR(30),
+	PW VARCHAR(4),
+	SECRET CHAR(1) CHECK(SECRET IN ('y', 'n'))
+);

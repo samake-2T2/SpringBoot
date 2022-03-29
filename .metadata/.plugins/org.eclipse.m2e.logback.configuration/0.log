@@ -427,3 +427,275 @@
 2022-03-28 16:35:50,776 [Worker-171: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating HTML files for Thymeleaf attribute processors.  Build kind: auto
 2022-03-28 16:35:50,776 [Worker-171: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating resource: /BootBasic/bin/main/templates/view/ex07.html
 2022-03-28 16:35:50,776 [Worker-171: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating resource: /BootBasic/src/main/resources/templates/view/ex07.html
+2022-03-29 09:01:37,649 [Worker-7: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2022-03-29 09:37:17,100 [Worker-2: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating HTML files for Thymeleaf attribute processors.  Build kind: auto
+2022-03-29 09:37:17,139 [Worker-2: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating resource: /BootBasic/bin/main/templates/view/quiz01.html
+2022-03-29 09:37:17,142 [Worker-2: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating resource: /BootBasic/bin/main/templates/view/quiz01_result.html
+2022-03-29 09:37:17,143 [Worker-2: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating resource: /BootBasic/src/main/resources/templates/view/quiz01.html
+2022-03-29 09:37:17,143 [Worker-2: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating resource: /BootBasic/src/main/resources/templates/view/quiz01_result.html
+2022-03-29 09:37:57,862 [Worker-20: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating HTML files for Thymeleaf attribute processors.  Build kind: auto
+2022-03-29 10:17:42,995 [Worker-24: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating HTML files for Thymeleaf attribute processors.  Build kind: auto
+2022-03-29 10:24:48,795 [Worker-28: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating HTML files for Thymeleaf attribute processors.  Build kind: auto
+2022-03-29 10:24:48,798 [Worker-28: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating resource: /BootBasic/bin/main/templates/view/quiz01.html
+2022-03-29 10:24:48,802 [Worker-28: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating resource: /BootBasic/src/main/resources/templates/view/quiz01.html
+2022-03-29 10:24:59,072 [Worker-26: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating HTML files for Thymeleaf attribute processors.  Build kind: auto
+2022-03-29 10:26:19,489 [Worker-24: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating HTML files for Thymeleaf attribute processors.  Build kind: auto
+2022-03-29 10:26:34,237 [Worker-24: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating HTML files for Thymeleaf attribute processors.  Build kind: auto
+2022-03-29 10:27:24,630 [Worker-24: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating HTML files for Thymeleaf attribute processors.  Build kind: auto
+2022-03-29 10:27:50,498 [Worker-27: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating HTML files for Thymeleaf attribute processors.  Build kind: auto
+2022-03-29 10:28:02,918 [Worker-26: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating HTML files for Thymeleaf attribute processors.  Build kind: auto
+2022-03-29 10:28:02,918 [Worker-26: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating resource: /BootBasic/bin/main/templates/view/quiz01_result.html
+2022-03-29 10:28:02,918 [Worker-26: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating resource: /BootBasic/src/main/resources/templates/view/quiz01_result.html
+2022-03-29 10:45:27,684 [Worker-23: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating HTML files for Thymeleaf attribute processors.  Build kind: auto
+2022-03-29 10:45:54,232 [Worker-31: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating HTML files for Thymeleaf attribute processors.  Build kind: auto
+2022-03-29 10:45:54,232 [Worker-31: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating resource: /BootBasic/bin/main/templates/valid/view.html
+2022-03-29 10:45:54,232 [Worker-31: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating resource: /BootBasic/src/main/resources/templates/valid/view.html
+2022-03-29 10:46:09,553 [Worker-32: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating HTML files for Thymeleaf attribute processors.  Build kind: auto
+2022-03-29 10:46:09,553 [Worker-32: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating resource: /BootBasic/bin/main/templates/valid/result.html
+2022-03-29 10:46:09,554 [Worker-32: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating resource: /BootBasic/src/main/resources/templates/valid/result.html
+2022-03-29 10:47:37,323 [Worker-33: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating HTML files for Thymeleaf attribute processors.  Build kind: auto
+2022-03-29 10:47:37,324 [Worker-33: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating resource: /BootBasic/bin/main/templates/valid/result.html
+2022-03-29 10:47:37,324 [Worker-33: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating resource: /BootBasic/bin/main/templates/valid/view.html
+2022-03-29 10:47:37,324 [Worker-33: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating resource: /BootBasic/src/main/resources/templates/valid/result.html
+2022-03-29 10:47:37,324 [Worker-33: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating resource: /BootBasic/src/main/resources/templates/valid/view.html
+2022-03-29 10:48:09,951 [main] INFO  o.t.e.e.d.ProjectDependencyDialectLocator - Scanning for dialect help files on project dependencies
+2022-03-29 10:48:10,019 [pool-14-thread-1] INFO  o.t.e.e.d.ProjectDependencyDialectLocator - Help file found: Java8Time.xml
+2022-03-29 10:48:10,025 [pool-14-thread-7] INFO  o.t.e.e.d.ProjectDependencyDialectLocator - Help file found: Standard-Dialect.xml
+2022-03-29 10:49:11,382 [Worker-34: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating HTML files for Thymeleaf attribute processors.  Build kind: auto
+2022-03-29 10:49:11,382 [Worker-34: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating resource: /BootBasic/bin/main/templates/valid/view.html
+2022-03-29 10:49:11,383 [Worker-34: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating resource: /BootBasic/src/main/resources/templates/valid/view.html
+2022-03-29 10:50:28,789 [Worker-36: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating HTML files for Thymeleaf attribute processors.  Build kind: auto
+2022-03-29 10:50:28,789 [Worker-36: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating resource: /BootBasic/bin/main/templates/valid/view.html
+2022-03-29 10:50:28,789 [Worker-36: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating resource: /BootBasic/src/main/resources/templates/valid/view.html
+2022-03-29 10:50:58,136 [Worker-31: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating HTML files for Thymeleaf attribute processors.  Build kind: auto
+2022-03-29 10:53:17,340 [Worker-31: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating HTML files for Thymeleaf attribute processors.  Build kind: auto
+2022-03-29 10:53:22,421 [Worker-36: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating HTML files for Thymeleaf attribute processors.  Build kind: auto
+2022-03-29 11:10:31,588 [Worker-38: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating HTML files for Thymeleaf attribute processors.  Build kind: auto
+2022-03-29 11:11:34,735 [Worker-38: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating HTML files for Thymeleaf attribute processors.  Build kind: auto
+2022-03-29 11:12:11,727 [Worker-38: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating HTML files for Thymeleaf attribute processors.  Build kind: auto
+2022-03-29 11:13:43,232 [Worker-28: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating HTML files for Thymeleaf attribute processors.  Build kind: auto
+2022-03-29 11:18:20,634 [Worker-40: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating HTML files for Thymeleaf attribute processors.  Build kind: auto
+2022-03-29 11:21:27,186 [Worker-47: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating HTML files for Thymeleaf attribute processors.  Build kind: auto
+2022-03-29 11:21:41,514 [Worker-42: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating HTML files for Thymeleaf attribute processors.  Build kind: auto
+2022-03-29 11:22:52,776 [Worker-50: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating HTML files for Thymeleaf attribute processors.  Build kind: auto
+2022-03-29 11:22:52,781 [Worker-50: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating resource: /BootBasic/bin/main/templates/home.html
+2022-03-29 11:22:52,781 [Worker-50: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating resource: /BootBasic/bin/main/templates/include/layout01.html
+2022-03-29 11:22:52,781 [Worker-50: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating resource: /BootBasic/bin/main/templates/include/layout02.html
+2022-03-29 11:22:52,781 [Worker-50: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating resource: /BootBasic/bin/main/templates/include/layout03.html
+2022-03-29 11:22:52,782 [Worker-50: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating resource: /BootBasic/bin/main/templates/valid/result.html
+2022-03-29 11:22:52,782 [Worker-50: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating resource: /BootBasic/bin/main/templates/valid/view.html
+2022-03-29 11:22:52,782 [Worker-50: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating resource: /BootBasic/bin/main/templates/view/ex01.html
+2022-03-29 11:22:52,782 [Worker-50: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating resource: /BootBasic/bin/main/templates/view/ex02.html
+2022-03-29 11:22:52,782 [Worker-50: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating resource: /BootBasic/bin/main/templates/view/ex03.html
+2022-03-29 11:22:52,782 [Worker-50: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating resource: /BootBasic/bin/main/templates/view/ex03_result.html
+2022-03-29 11:22:52,782 [Worker-50: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating resource: /BootBasic/bin/main/templates/view/ex04.html
+2022-03-29 11:22:52,782 [Worker-50: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating resource: /BootBasic/bin/main/templates/view/ex05.html
+2022-03-29 11:22:52,782 [Worker-50: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating resource: /BootBasic/bin/main/templates/view/ex06.html
+2022-03-29 11:22:52,782 [Worker-50: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating resource: /BootBasic/bin/main/templates/view/ex07.html
+2022-03-29 11:22:52,782 [Worker-50: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating resource: /BootBasic/bin/main/templates/view/quiz01.html
+2022-03-29 11:22:52,782 [Worker-50: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating resource: /BootBasic/bin/main/templates/view/quiz01_result.html
+2022-03-29 11:26:52,516 [Worker-52: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating HTML files for Thymeleaf attribute processors.  Build kind: auto
+2022-03-29 11:29:48,228 [Worker-41: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating HTML files for Thymeleaf attribute processors.  Build kind: auto
+2022-03-29 11:30:32,949 [Worker-48: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating HTML files for Thymeleaf attribute processors.  Build kind: auto
+2022-03-29 11:33:04,733 [Worker-48: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating HTML files for Thymeleaf attribute processors.  Build kind: auto
+2022-03-29 11:34:57,342 [Worker-52: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating HTML files for Thymeleaf attribute processors.  Build kind: auto
+2022-03-29 11:35:33,983 [Worker-55: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating HTML files for Thymeleaf attribute processors.  Build kind: auto
+2022-03-29 11:38:01,122 [Worker-58: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating HTML files for Thymeleaf attribute processors.  Build kind: auto
+2022-03-29 11:38:41,627 [Worker-55: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating HTML files for Thymeleaf attribute processors.  Build kind: auto
+2022-03-29 11:38:53,716 [Worker-58: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating HTML files for Thymeleaf attribute processors.  Build kind: auto
+2022-03-29 11:38:59,797 [Worker-57: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating HTML files for Thymeleaf attribute processors.  Build kind: auto
+2022-03-29 11:39:14,270 [Worker-55: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating HTML files for Thymeleaf attribute processors.  Build kind: auto
+2022-03-29 11:39:45,865 [Worker-58: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating HTML files for Thymeleaf attribute processors.  Build kind: auto
+2022-03-29 11:39:51,291 [Worker-55: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating HTML files for Thymeleaf attribute processors.  Build kind: auto
+2022-03-29 11:41:03,984 [Worker-57: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating HTML files for Thymeleaf attribute processors.  Build kind: auto
+2022-03-29 11:41:49,201 [Worker-55: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating HTML files for Thymeleaf attribute processors.  Build kind: auto
+2022-03-29 11:42:01,530 [Worker-64: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating HTML files for Thymeleaf attribute processors.  Build kind: auto
+2022-03-29 12:12:56,642 [Worker-68: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating HTML files for Thymeleaf attribute processors.  Build kind: auto
+2022-03-29 12:13:11,725 [Worker-70: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating HTML files for Thymeleaf attribute processors.  Build kind: auto
+2022-03-29 12:13:39,244 [Worker-70: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating HTML files for Thymeleaf attribute processors.  Build kind: auto
+2022-03-29 12:13:46,965 [Worker-70: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating HTML files for Thymeleaf attribute processors.  Build kind: auto
+2022-03-29 12:13:55,605 [Worker-69: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating HTML files for Thymeleaf attribute processors.  Build kind: auto
+2022-03-29 12:16:25,787 [Worker-73: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating HTML files for Thymeleaf attribute processors.  Build kind: auto
+2022-03-29 12:17:22,391 [Worker-74: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating HTML files for Thymeleaf attribute processors.  Build kind: auto
+2022-03-29 12:21:14,879 [Worker-77: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating HTML files for Thymeleaf attribute processors.  Build kind: auto
+2022-03-29 12:33:17,482 [Worker-80: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating HTML files for Thymeleaf attribute processors.  Build kind: auto
+2022-03-29 12:36:20,373 [Worker-83: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating HTML files for Thymeleaf attribute processors.  Build kind: auto
+2022-03-29 12:37:18,633 [Worker-84: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating HTML files for Thymeleaf attribute processors.  Build kind: auto
+2022-03-29 12:37:31,435 [Worker-84: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating HTML files for Thymeleaf attribute processors.  Build kind: auto
+2022-03-29 12:39:08,599 [Worker-85: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating HTML files for Thymeleaf attribute processors.  Build kind: auto
+2022-03-29 12:39:14,120 [Worker-90: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating HTML files for Thymeleaf attribute processors.  Build kind: auto
+2022-03-29 12:40:24,026 [Worker-89: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating HTML files for Thymeleaf attribute processors.  Build kind: auto
+2022-03-29 12:43:01,562 [Worker-87: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating HTML files for Thymeleaf attribute processors.  Build kind: auto
+2022-03-29 12:43:01,564 [Worker-87: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating resource: /BootBasic/bin/main/templates/valid/view.html
+2022-03-29 12:43:01,565 [Worker-87: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating resource: /BootBasic/src/main/resources/templates/valid/view.html
+2022-03-29 12:44:52,293 [Worker-92: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating HTML files for Thymeleaf attribute processors.  Build kind: auto
+2022-03-29 12:44:52,293 [Worker-92: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating resource: /BootBasic/bin/main/templates/valid/view.html
+2022-03-29 12:44:52,294 [Worker-92: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating resource: /BootBasic/src/main/resources/templates/valid/view.html
+2022-03-29 13:15:47,461 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-03-29 14:12:50,909 [Worker-27: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating HTML files for Thymeleaf attribute processors.  Build kind: auto
+2022-03-29 14:12:50,933 [Worker-27: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating resource: /BootBasic/bin/main/templates/valid/view.html
+2022-03-29 14:12:50,936 [Worker-27: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating resource: /BootBasic/src/main/resources/templates/valid/view.html
+2022-03-29 14:13:23,906 [Worker-26: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating HTML files for Thymeleaf attribute processors.  Build kind: auto
+2022-03-29 14:13:23,907 [Worker-26: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating resource: /BootBasic/bin/main/templates/valid/view.html
+2022-03-29 14:13:23,908 [Worker-26: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating resource: /BootBasic/src/main/resources/templates/valid/view.html
+2022-03-29 14:14:11,675 [Worker-21: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating HTML files for Thymeleaf attribute processors.  Build kind: auto
+2022-03-29 14:14:11,675 [Worker-21: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating resource: /BootBasic/bin/main/templates/valid/view.html
+2022-03-29 14:14:11,675 [Worker-21: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating resource: /BootBasic/src/main/resources/templates/valid/view.html
+2022-03-29 14:14:50,138 [Worker-21: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating HTML files for Thymeleaf attribute processors.  Build kind: auto
+2022-03-29 14:14:50,138 [Worker-21: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating resource: /BootBasic/bin/main/templates/view/quiz01.html
+2022-03-29 14:14:50,139 [Worker-21: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating resource: /BootBasic/src/main/resources/templates/view/quiz01.html
+2022-03-29 14:30:44,077 [Worker-32: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating HTML files for Thymeleaf attribute processors.  Build kind: auto
+2022-03-29 14:32:15,934 [Worker-37: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating HTML files for Thymeleaf attribute processors.  Build kind: auto
+2022-03-29 14:33:09,219 [Worker-38: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating HTML files for Thymeleaf attribute processors.  Build kind: auto
+2022-03-29 14:33:15,752 [Worker-30: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating HTML files for Thymeleaf attribute processors.  Build kind: auto
+2022-03-29 14:33:39,327 [Worker-41: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating HTML files for Thymeleaf attribute processors.  Build kind: auto
+2022-03-29 14:34:02,262 [Worker-41: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating HTML files for Thymeleaf attribute processors.  Build kind: auto
+2022-03-29 14:34:03,269 [Worker-40: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating HTML files for Thymeleaf attribute processors.  Build kind: auto
+2022-03-29 14:34:25,570 [Worker-37: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating HTML files for Thymeleaf attribute processors.  Build kind: auto
+2022-03-29 14:34:41,082 [Worker-41: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating HTML files for Thymeleaf attribute processors.  Build kind: auto
+2022-03-29 14:34:41,084 [Worker-41: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating resource: /BootBasic/bin/main/templates/home.html
+2022-03-29 14:34:41,084 [Worker-41: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating resource: /BootBasic/bin/main/templates/include/layout01.html
+2022-03-29 14:34:41,085 [Worker-41: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating resource: /BootBasic/bin/main/templates/include/layout02.html
+2022-03-29 14:34:41,085 [Worker-41: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating resource: /BootBasic/bin/main/templates/include/layout03.html
+2022-03-29 14:34:41,085 [Worker-41: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating resource: /BootBasic/bin/main/templates/valid/result.html
+2022-03-29 14:34:41,085 [Worker-41: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating resource: /BootBasic/bin/main/templates/valid/view.html
+2022-03-29 14:34:41,086 [Worker-41: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating resource: /BootBasic/bin/main/templates/view/ex01.html
+2022-03-29 14:34:41,087 [Worker-41: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating resource: /BootBasic/bin/main/templates/view/ex02.html
+2022-03-29 14:34:41,087 [Worker-41: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating resource: /BootBasic/bin/main/templates/view/ex03.html
+2022-03-29 14:34:41,087 [Worker-41: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating resource: /BootBasic/bin/main/templates/view/ex03_result.html
+2022-03-29 14:34:41,087 [Worker-41: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating resource: /BootBasic/bin/main/templates/view/ex04.html
+2022-03-29 14:34:41,087 [Worker-41: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating resource: /BootBasic/bin/main/templates/view/ex05.html
+2022-03-29 14:34:41,087 [Worker-41: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating resource: /BootBasic/bin/main/templates/view/ex06.html
+2022-03-29 14:34:41,087 [Worker-41: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating resource: /BootBasic/bin/main/templates/view/ex07.html
+2022-03-29 14:34:41,087 [Worker-41: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating resource: /BootBasic/bin/main/templates/view/quiz01.html
+2022-03-29 14:34:41,087 [Worker-41: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating resource: /BootBasic/bin/main/templates/view/quiz01_result.html
+2022-03-29 14:37:23,612 [Worker-41: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating HTML files for Thymeleaf attribute processors.  Build kind: auto
+2022-03-29 14:38:01,703 [Worker-41: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating HTML files for Thymeleaf attribute processors.  Build kind: auto
+2022-03-29 14:39:04,145 [Worker-37: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating HTML files for Thymeleaf attribute processors.  Build kind: auto
+2022-03-29 14:40:27,464 [Worker-41: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating HTML files for Thymeleaf attribute processors.  Build kind: auto
+2022-03-29 14:40:40,993 [Worker-41: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating HTML files for Thymeleaf attribute processors.  Build kind: auto
+2022-03-29 14:42:43,440 [Worker-40: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating HTML files for Thymeleaf attribute processors.  Build kind: auto
+2022-03-29 14:43:41,163 [Worker-38: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating HTML files for Thymeleaf attribute processors.  Build kind: auto
+2022-03-29 14:44:03,707 [Worker-41: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating HTML files for Thymeleaf attribute processors.  Build kind: auto
+2022-03-29 14:44:43,640 [Worker-40: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating HTML files for Thymeleaf attribute processors.  Build kind: auto
+2022-03-29 14:48:11,641 [Worker-46: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating HTML files for Thymeleaf attribute processors.  Build kind: auto
+2022-03-29 14:48:16,889 [Worker-45: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating HTML files for Thymeleaf attribute processors.  Build kind: auto
+2022-03-29 14:52:03,352 [Worker-45: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating HTML files for Thymeleaf attribute processors.  Build kind: auto
+2022-03-29 14:53:11,410 [Worker-43: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating HTML files for Thymeleaf attribute processors.  Build kind: auto
+2022-03-29 14:53:34,140 [Worker-43: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating HTML files for Thymeleaf attribute processors.  Build kind: full
+2022-03-29 14:53:34,150 [Worker-43: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Checking project: BootBasic
+2022-03-29 14:53:52,705 [Worker-29: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating HTML files for Thymeleaf attribute processors.  Build kind: auto
+2022-03-29 14:54:56,361 [Worker-45: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating HTML files for Thymeleaf attribute processors.  Build kind: auto
+2022-03-29 14:55:14,380 [Worker-43: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating HTML files for Thymeleaf attribute processors.  Build kind: auto
+2022-03-29 14:56:08,593 [Worker-43: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating HTML files for Thymeleaf attribute processors.  Build kind: auto
+2022-03-29 15:02:54,314 [Worker-45: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating HTML files for Thymeleaf attribute processors.  Build kind: auto
+2022-03-29 15:04:41,230 [Worker-52: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating HTML files for Thymeleaf attribute processors.  Build kind: auto
+2022-03-29 15:14:18,141 [Worker-56: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating HTML files for Thymeleaf attribute processors.  Build kind: auto
+2022-03-29 15:15:34,224 [Worker-57: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating HTML files for Thymeleaf attribute processors.  Build kind: auto
+2022-03-29 15:15:47,013 [Worker-55: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating HTML files for Thymeleaf attribute processors.  Build kind: auto
+2022-03-29 15:15:47,013 [Worker-55: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating resource: /BootBasic/bin/main/templates/memo/ex.html
+2022-03-29 15:15:47,017 [Worker-55: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating resource: /BootBasic/src/main/resources/templates/memo/ex.html
+2022-03-29 15:16:22,107 [Worker-52: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating HTML files for Thymeleaf attribute processors.  Build kind: auto
+2022-03-29 15:16:22,107 [Worker-52: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating resource: /BootBasic/bin/main/templates/memo/ex.html
+2022-03-29 15:16:22,107 [Worker-52: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating resource: /BootBasic/src/main/resources/templates/memo/ex.html
+2022-03-29 15:16:46,678 [Worker-52: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating HTML files for Thymeleaf attribute processors.  Build kind: auto
+2022-03-29 15:17:45,345 [Worker-52: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating HTML files for Thymeleaf attribute processors.  Build kind: auto
+2022-03-29 15:17:59,876 [Worker-52: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating HTML files for Thymeleaf attribute processors.  Build kind: auto
+2022-03-29 15:18:18,671 [Worker-55: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating HTML files for Thymeleaf attribute processors.  Build kind: auto
+2022-03-29 15:18:45,509 [Worker-52: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating HTML files for Thymeleaf attribute processors.  Build kind: auto
+2022-03-29 15:19:02,472 [Worker-60: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating HTML files for Thymeleaf attribute processors.  Build kind: auto
+2022-03-29 15:20:03,674 [Worker-57: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating HTML files for Thymeleaf attribute processors.  Build kind: auto
+2022-03-29 15:21:18,650 [Worker-52: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating HTML files for Thymeleaf attribute processors.  Build kind: auto
+2022-03-29 15:22:57,095 [Worker-57: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating HTML files for Thymeleaf attribute processors.  Build kind: auto
+2022-03-29 15:24:33,367 [Worker-57: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating HTML files for Thymeleaf attribute processors.  Build kind: auto
+2022-03-29 15:25:03,991 [Worker-62: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating HTML files for Thymeleaf attribute processors.  Build kind: auto
+2022-03-29 15:26:14,410 [Worker-59: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating HTML files for Thymeleaf attribute processors.  Build kind: auto
+2022-03-29 15:26:25,472 [Worker-57: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating HTML files for Thymeleaf attribute processors.  Build kind: auto
+2022-03-29 15:26:25,472 [Worker-57: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating resource: /BootBasic/bin/main/templates/memo/ex.html
+2022-03-29 15:26:25,472 [Worker-57: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating resource: /BootBasic/src/main/resources/templates/memo/ex.html
+2022-03-29 15:26:39,186 [Worker-62: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating HTML files for Thymeleaf attribute processors.  Build kind: auto
+2022-03-29 15:26:39,186 [Worker-62: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating resource: /BootBasic/bin/main/templates/memo/ex.html
+2022-03-29 15:26:39,186 [Worker-62: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating resource: /BootBasic/src/main/resources/templates/memo/ex.html
+2022-03-29 15:38:14,710 [Worker-63: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating HTML files for Thymeleaf attribute processors.  Build kind: auto
+2022-03-29 15:38:14,710 [Worker-63: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating resource: /BootBasic/bin/main/templates/memo/memoList.html
+2022-03-29 15:38:14,710 [Worker-63: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating resource: /BootBasic/bin/main/templates/memo/memoWrite.html
+2022-03-29 15:38:14,711 [Worker-63: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating resource: /BootBasic/src/main/resources/templates/memo/memoList.html
+2022-03-29 15:38:14,711 [Worker-63: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating resource: /BootBasic/src/main/resources/templates/memo/memoWrite.html
+2022-03-29 15:51:13,516 [Worker-68: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating HTML files for Thymeleaf attribute processors.  Build kind: auto
+2022-03-29 15:51:45,773 [Worker-67: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating HTML files for Thymeleaf attribute processors.  Build kind: auto
+2022-03-29 15:57:40,110 [Worker-63: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating HTML files for Thymeleaf attribute processors.  Build kind: auto
+2022-03-29 15:58:02,156 [Worker-63: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating HTML files for Thymeleaf attribute processors.  Build kind: auto
+2022-03-29 16:21:14,849 [Worker-78: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating HTML files for Thymeleaf attribute processors.  Build kind: auto
+2022-03-29 16:21:23,296 [Worker-76: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating HTML files for Thymeleaf attribute processors.  Build kind: auto
+2022-03-29 16:24:12,115 [Worker-78: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating HTML files for Thymeleaf attribute processors.  Build kind: auto
+2022-03-29 16:24:32,059 [Worker-70: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating HTML files for Thymeleaf attribute processors.  Build kind: auto
+2022-03-29 16:25:01,197 [Worker-78: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating HTML files for Thymeleaf attribute processors.  Build kind: auto
+2022-03-29 16:26:33,596 [Worker-79: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating HTML files for Thymeleaf attribute processors.  Build kind: auto
+2022-03-29 16:26:49,827 [Worker-70: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating HTML files for Thymeleaf attribute processors.  Build kind: auto
+2022-03-29 16:27:58,229 [Worker-77: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating HTML files for Thymeleaf attribute processors.  Build kind: auto
+2022-03-29 16:27:58,232 [Worker-77: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating resource: /BootBasic/bin/main/templates/memo/memoWrite.html
+2022-03-29 16:27:58,233 [Worker-77: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating resource: /BootBasic/src/main/resources/templates/memo/memoWrite.html
+2022-03-29 16:28:11,697 [Worker-77: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating HTML files for Thymeleaf attribute processors.  Build kind: auto
+2022-03-29 16:28:11,698 [Worker-77: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating resource: /BootBasic/bin/main/templates/memo/memoWrite.html
+2022-03-29 16:28:11,698 [Worker-77: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating resource: /BootBasic/src/main/resources/templates/memo/memoWrite.html
+2022-03-29 16:28:23,414 [Worker-78: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating HTML files for Thymeleaf attribute processors.  Build kind: auto
+2022-03-29 16:31:30,970 [Worker-82: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating HTML files for Thymeleaf attribute processors.  Build kind: auto
+2022-03-29 16:31:51,934 [Worker-77: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating HTML files for Thymeleaf attribute processors.  Build kind: auto
+2022-03-29 16:33:16,423 [Worker-81: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating HTML files for Thymeleaf attribute processors.  Build kind: auto
+2022-03-29 16:34:58,191 [Worker-84: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating HTML files for Thymeleaf attribute processors.  Build kind: auto
+2022-03-29 16:36:28,211 [Worker-84: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating HTML files for Thymeleaf attribute processors.  Build kind: auto
+2022-03-29 16:36:49,815 [Worker-85: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating HTML files for Thymeleaf attribute processors.  Build kind: auto
+2022-03-29 16:36:52,836 [Worker-85: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating HTML files for Thymeleaf attribute processors.  Build kind: auto
+2022-03-29 16:37:34,876 [Worker-78: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating HTML files for Thymeleaf attribute processors.  Build kind: auto
+2022-03-29 16:39:15,427 [Worker-82: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating HTML files for Thymeleaf attribute processors.  Build kind: auto
+2022-03-29 16:40:28,443 [Worker-86: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating HTML files for Thymeleaf attribute processors.  Build kind: auto
+2022-03-29 16:40:56,229 [Worker-78: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating HTML files for Thymeleaf attribute processors.  Build kind: auto
+2022-03-29 16:42:21,479 [Worker-87: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating HTML files for Thymeleaf attribute processors.  Build kind: auto
+2022-03-29 16:42:56,366 [Worker-87: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating HTML files for Thymeleaf attribute processors.  Build kind: auto
+2022-03-29 16:43:03,351 [Worker-88: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating HTML files for Thymeleaf attribute processors.  Build kind: auto
+2022-03-29 16:44:30,642 [Worker-88: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating HTML files for Thymeleaf attribute processors.  Build kind: auto
+2022-03-29 16:45:24,191 [Worker-87: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating HTML files for Thymeleaf attribute processors.  Build kind: auto
+2022-03-29 16:46:37,490 [Worker-85: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating HTML files for Thymeleaf attribute processors.  Build kind: auto
+2022-03-29 16:47:07,787 [Worker-89: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating HTML files for Thymeleaf attribute processors.  Build kind: auto
+2022-03-29 16:47:40,129 [Worker-86: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating HTML files for Thymeleaf attribute processors.  Build kind: auto
+2022-03-29 16:48:47,237 [Worker-78: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating HTML files for Thymeleaf attribute processors.  Build kind: auto
+2022-03-29 16:52:49,344 [Worker-91: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating HTML files for Thymeleaf attribute processors.  Build kind: auto
+2022-03-29 16:54:59,963 [Worker-91: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating HTML files for Thymeleaf attribute processors.  Build kind: auto
+2022-03-29 16:55:36,646 [Worker-91: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating HTML files for Thymeleaf attribute processors.  Build kind: auto
+2022-03-29 16:55:48,900 [Text Viewer Hover Presenter] INFO  o.t.e.e.d.ProjectDependencyDialectLocator - Scanning for dialect help files on project dependencies
+2022-03-29 16:55:48,965 [pool-26-thread-2] INFO  o.t.e.e.d.ProjectDependencyDialectLocator - Help file found: Java8Time.xml
+2022-03-29 16:55:48,967 [pool-26-thread-5] INFO  o.t.e.e.d.ProjectDependencyDialectLocator - Help file found: Standard-Dialect.xml
+2022-03-29 16:59:28,527 [Worker-94: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating HTML files for Thymeleaf attribute processors.  Build kind: auto
+2022-03-29 16:59:28,527 [Worker-94: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating resource: /BootBasic/bin/main/templates/memo/memoList.html
+2022-03-29 16:59:28,527 [Worker-94: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating resource: /BootBasic/src/main/resources/templates/memo/memoList.html
+2022-03-29 17:04:15,231 [Worker-96: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating HTML files for Thymeleaf attribute processors.  Build kind: auto
+2022-03-29 17:04:15,231 [Worker-96: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating resource: /BootBasic/bin/main/templates/memo/memoList.html
+2022-03-29 17:04:15,231 [Worker-96: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating resource: /BootBasic/src/main/resources/templates/memo/memoList.html
+2022-03-29 17:08:17,141 [Worker-98: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating HTML files for Thymeleaf attribute processors.  Build kind: auto
+2022-03-29 17:08:17,141 [Worker-98: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating resource: /BootBasic/bin/main/templates/memo/memoList.html
+2022-03-29 17:08:17,141 [Worker-98: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating resource: /BootBasic/src/main/resources/templates/memo/memoList.html
+2022-03-29 17:09:33,055 [Worker-97: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating HTML files for Thymeleaf attribute processors.  Build kind: auto
+2022-03-29 17:09:33,056 [Worker-97: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating resource: /BootBasic/bin/main/templates/memo/memoList.html
+2022-03-29 17:09:33,056 [Worker-97: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating resource: /BootBasic/src/main/resources/templates/memo/memoList.html
+2022-03-29 17:10:45,292 [Worker-97: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating HTML files for Thymeleaf attribute processors.  Build kind: auto
+2022-03-29 17:10:45,292 [Worker-97: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating resource: /BootBasic/bin/main/templates/memo/memoList.html
+2022-03-29 17:10:45,293 [Worker-97: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating resource: /BootBasic/src/main/resources/templates/memo/memoList.html
+2022-03-29 17:11:20,727 [Worker-85: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating HTML files for Thymeleaf attribute processors.  Build kind: auto
+2022-03-29 17:11:20,727 [Worker-85: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating resource: /BootBasic/bin/main/templates/memo/memoList.html
+2022-03-29 17:11:20,727 [Worker-85: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating resource: /BootBasic/src/main/resources/templates/memo/memoList.html
+2022-03-29 17:16:11,013 [Worker-103: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating HTML files for Thymeleaf attribute processors.  Build kind: auto
+2022-03-29 17:16:11,014 [Worker-103: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating resource: /BootBasic/bin/main/templates/memo/memoList.html
+2022-03-29 17:16:11,014 [Worker-103: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating resource: /BootBasic/src/main/resources/templates/memo/memoList.html
+2022-03-29 17:18:53,768 [Worker-105: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating HTML files for Thymeleaf attribute processors.  Build kind: auto
+2022-03-29 17:20:54,654 [Worker-107: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating HTML files for Thymeleaf attribute processors.  Build kind: auto
+2022-03-29 17:23:46,479 [Worker-105: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating HTML files for Thymeleaf attribute processors.  Build kind: auto
+2022-03-29 17:23:46,479 [Worker-105: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating resource: /BootBasic/bin/main/templates/memo/memoList.html
+2022-03-29 17:23:46,479 [Worker-105: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating resource: /BootBasic/src/main/resources/templates/memo/memoList.html
+2022-03-29 17:24:13,219 [Worker-111: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating HTML files for Thymeleaf attribute processors.  Build kind: auto
+2022-03-29 17:24:13,219 [Worker-111: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating resource: /BootBasic/bin/main/templates/memo/memoList.html
+2022-03-29 17:24:13,219 [Worker-111: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating resource: /BootBasic/src/main/resources/templates/memo/memoList.html
+2022-03-29 17:25:35,997 [Worker-110: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating HTML files for Thymeleaf attribute processors.  Build kind: auto
+2022-03-29 17:26:32,507 [Worker-110: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating HTML files for Thymeleaf attribute processors.  Build kind: auto
+2022-03-29 17:27:33,662 [Worker-109: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating HTML files for Thymeleaf attribute processors.  Build kind: auto
+2022-03-29 17:27:33,662 [Worker-109: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating resource: /BootBasic/bin/main/templates/memo/memoWrite.html
+2022-03-29 17:27:33,662 [Worker-109: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating resource: /BootBasic/src/main/resources/templates/memo/memoWrite.html

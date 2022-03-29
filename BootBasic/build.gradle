@@ -36,6 +36,12 @@ dependencies {
 	
 	// 타임리프 적용하기(스프링부트 권고사항)
 	implementation group: 'org.springframework.boot', name: 'spring-boot-starter-thymeleaf'
+	
+	// 스프링부트 유효성 검사(validation)
+	implementation group: 'org.springframework.boot', name: 'spring-boot-starter-validation'
+	
+	// mybatis 적용
+	implementation group: 'org.mybatis.spring.boot', name: 'mybatis-spring-boot-starter', version: '2.2.0'
 }
 
 tasks.named('test') {
