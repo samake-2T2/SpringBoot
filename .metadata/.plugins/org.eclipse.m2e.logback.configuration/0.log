@@ -699,3 +699,13 @@
 2022-03-29 17:27:33,662 [Worker-109: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating HTML files for Thymeleaf attribute processors.  Build kind: auto
 2022-03-29 17:27:33,662 [Worker-109: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating resource: /BootBasic/bin/main/templates/memo/memoWrite.html
 2022-03-29 17:27:33,662 [Worker-109: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating resource: /BootBasic/src/main/resources/templates/memo/memoWrite.html
+2022-03-29 18:26:33,643 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-03-29 18:27:59,988 [Worker-10: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating HTML files for Thymeleaf attribute processors.  Build kind: auto
+2022-03-29 18:28:00,015 [Worker-10: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating resource: /BootBasic/bin/main/templates/view/quiz01.html
+2022-03-29 18:28:12,799 [Worker-13: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating HTML files for Thymeleaf attribute processors.  Build kind: auto
+2022-03-29 18:28:12,800 [Worker-13: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating resource: /BootBasic/bin/main/templates/view/quiz01.html
+2022-03-29 18:28:12,801 [Worker-13: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating resource: /BootBasic/bin/main/templates/view/quiz01_result.html
+2022-03-29 18:28:12,802 [Worker-13: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating resource: /BootBasic/src/main/resources/templates/view/quiz01.html
+2022-03-29 18:28:12,802 [Worker-13: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating resource: /BootBasic/src/main/resources/templates/view/quiz01_result.html
+2022-03-29 18:30:34,318 [Worker-11: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating HTML files for Thymeleaf attribute processors.  Build kind: auto
+2022-03-29 18:30:47,523 [Worker-11: Building] INFO  o.t.e.e.builder.ThymeleafBuilder - Unvalidating HTML files for Thymeleaf attribute processors.  Build kind: auto
