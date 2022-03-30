@@ -34,7 +34,7 @@ public class MemoController {
 	}
 
 	// 글쓰기 화면
-	@RequestMapping("/memoWrite")
+	@GetMapping("/memoWrite")
 	public void memoWrite() {
 
 	}
@@ -83,7 +83,7 @@ public class MemoController {
 	}
 	
 	// 메모 리스트 불러오기
-	@RequestMapping("/memoList")
+	@GetMapping("/memoList")
 	public void memoList(Model model) {
 		
 		List<MemoVO> list = memoService.getList();
