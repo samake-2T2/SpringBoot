@@ -3,35 +3,58 @@
 PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
-<mapper namespace="com.coding404.myweb.product.ProductMapper">
+<mapper namespace="com.coding404.myweb.topic.TopicMapper">
 
-	<!-- 테이블명은 대문자(mysql은 대소문자를 구분함) -->
 	<insert id="regist">
-		insert into PRODUCT(prod_enddate,
-		prod_category,
-		prod_writer,
-		prod_name,
-		prod_price,
-		prod_count,
-		prod_discount,
-		prod_purchase_yn,
-		prod_content,
-		prod_comment
+		insert into TOPIC(topic_id,
+						  topic_title,
+						  topic_content,
+						  topic_regdate
 		)
-		values(#{prod_enddate},
-		#{prod_category},
-		#{prod_writer},
-		#{prod_name},
-		#{prod_price},
-		#{prod_count},
-		#{prod_discount},
-		#{prod_purchase_yn},
-		#{prod_content},
-		#{prod_comment}
+		values(#{topic_id},
+			   #{topic_title},
+			   #{topic_content},
+			   #{topic_regdate}
 		)
 	</insert>
-
-	<!-- 예시 사용자 admin으로 사용 -->
+	
+	<select id="getListAll" resultType="TopicVO">
+		<!-- 
+		select * 
+		from PRODUCT 
+		where prod_writer = 'admin' 
+		order by prod_id desc
+		 -->
+		 
+		<![CDATA[
+		SELECT
+			B.*
+		FROM
+			(SELECT
+				A.*, @ROWNUM:=@ROWNUM + 1 AS RN
+			FROM
+				(SELECT
+					*
+				FROM
+					TOPIC
+				WHERE
+					TOPIC_ID = 'admin'
+				
+		]]>        	
+            		<if test="searchName != '' and searchName != null">
+            		AND TOPIC_ID LIKE CONCAT('%', #{searchName}, '%')
+            		</if>            		
+            		<if test="searchTitle != '' and searchTitle != null">
+            		AND TOPIC_TITLE LIKE CONCAT('%', #{searchTitle}, '%')
+            		</if>
+				) A, (SELECT @ROWNUM:=0) D     		
+    	<![CDATA[
+		) B
+		WHERE
+		RN > (#{page}-1) * #{amount} AND RN <= #{page} * #{amount}
+		]]>
+	</select>
+	
 	<select id="getList" resultType="ProductVO">
 		<!-- 
 		select * 
@@ -109,28 +132,5 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
             AND PROD_CONTENT LIKE CONCAT('%', #{searchContent}, '%')
             </if>
 	</select>
-
-	<select id="getDetail" resultType="ProductVO">
-		select * from PRODUCT
-		where prod_id = #{prod_id}
-	</select>
-
-	<update id="update">
-		update PRODUCT
-		set prod_enddate = #{prod_enddate},
-		prod_name = #{prod_name},
-		prod_price = #{prod_price},
-		prod_count = #{prod_count},
-		prod_discount = #{prod_discount},
-		prod_purchase_yn = #{prod_purchase_yn},
-		prod_content = #{prod_content},
-		prod_comment = #{prod_comment}
-		where prod_id = #{prod_id}
-	</update>
-
-	<delete id="delete">
-		delete from PRODUCT
-		where prod_id = #{prod_id}
-	</delete>
 
 </mapper>
