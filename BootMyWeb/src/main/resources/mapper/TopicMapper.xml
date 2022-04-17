@@ -37,25 +37,16 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 					*
 				FROM
 					TOPIC
-				WHERE
-					TOPIC_ID = 'admin'
-				
-		]]>        	
-            		<if test="searchName != '' and searchName != null">
-            		AND TOPIC_ID LIKE CONCAT('%', #{searchName}, '%')
-            		</if>            		
-            		<if test="searchTitle != '' and searchTitle != null">
-            		AND TOPIC_TITLE LIKE CONCAT('%', #{searchTitle}, '%')
-            		</if>
+				ORDER BY
+					TOPIC_NO DESC
 				) A, (SELECT @ROWNUM:=0) D     		
-    	<![CDATA[
 		) B
 		WHERE
 		RN > (#{page}-1) * #{amount} AND RN <= #{page} * #{amount}
 		]]>
 	</select>
 	
-	<select id="getList" resultType="ProductVO">
+	<select id="getListMe" resultType="TopicVO">
 		<!-- 
 		select * 
 		from PRODUCT 
@@ -73,35 +64,11 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 				(SELECT
 					*
 				FROM
-					product
+					topic
 				WHERE
-					PROD_WRITER = 'admin'
-		]]>
-					<if test="startDate != '' and startDate != null">
-					<![CDATA[
-            		AND DATE_FORMAT(PROD_ENDDATE, '%Y-%m-%d') > DATE_FORMAT(#{startDate}, '%Y-%m-%d')
-            		]]>
-            		</if>            		
-            		<if test="endDate != '' and endDate != null">
-            		<![CDATA[
-            		AND DATE_FORMAT(PROD_ENDDATE, '%Y-%m-%d') <= DATE_FORMAT(#{endDate}, '%Y-%m-%d')
-            		]]>
-            		</if>            		
-            		<if test="searchName != '' and searchName != null">
-            		AND PROD_NAME LIKE CONCAT('%', #{searchName}, '%')
-            		</if>            		
-            		<if test="searchContent != '' and searchContent != null">
-            		AND PROD_CONTENT LIKE CONCAT('%', #{searchContent}, '%')
-            		</if>            		
-            		ORDER BY 
-            		<if test="searchPrice == 'desc'">
-    				PROD_PRICE DESC ,
-    				</if>    				
-    				<if test="searchPrice == 'asc'">
-    				PROD_PRICE ASC ,
-    				</if>
-    				PROD_ID DESC) A, (SELECT @ROWNUM:=0) D
-    	<![CDATA[
+					TOPIC_ID = 'admin'
+				ORDER BY
+    				TOPIC_NO DESC) A, (SELECT @ROWNUM:=0) D
 		) B
 		WHERE
 		RN > (#{page}-1) * #{amount} AND RN <= #{page} * #{amount}
@@ -112,25 +79,33 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 		SELECT 
     		COUNT(*) AS TOTAL
 		FROM
-    		product
-		WHERE
-    		PROD_WRITER = 'admin'
-    		<if test="startDate != '' and startDate != null">
-			<![CDATA[
-            AND DATE_FORMAT(PROD_ENDDATE, '%Y-%m-%d') > DATE_FORMAT(#{startDate}, '%Y-%m-%d')
-            ]]>
-            </if>            		
-            <if test="endDate != '' and endDate != null">
-            <![CDATA[
-            AND DATE_FORMAT(PROD_ENDDATE, '%Y-%m-%d') <= DATE_FORMAT(#{endDate}, '%Y-%m-%d')
-            ]]>
-            </if>            		
-            <if test="searchName != '' and searchName != null">
-            AND PROD_NAME LIKE CONCAT('%', #{searchName}, '%')
-            </if>            		
-            <if test="searchContent != '' and searchContent != null">
-            AND PROD_CONTENT LIKE CONCAT('%', #{searchContent}, '%')
-            </if>
+    		TOPIC
 	</select>
-
+	
+	<select id="getTotalMe" resultType="int">
+		SELECT 
+    		COUNT(*) AS TOTAL
+		FROM
+    		TOPIC
+    	WHERE
+    		TOPIC_ID = 'admin'
+	</select>
+	
+	<select id="getDetail" resultType="topicVO">
+		select * from TOPIC
+		where TOPIC_NO = #{topic_no}
+	</select>
+	
+	<update id="update">
+		update topic
+		set topic_title = #{topic_title},
+			topic_content = #{topic_content}
+		where topic_no = #{topic_no}
+	</update>
+	
+	<delete id="delete">
+		delete from topic 
+		where topic_no = #{topic_no}
+	</delete>
+	
 </mapper>

@@ -7,6 +7,7 @@ import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -16,13 +17,15 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.simple.basic.command.RestVO;
+import com.simple.basic.command.Test2VO;
+import com.simple.basic.command.TestVO;
 
 @RestController // @Controller + @ResponseBody
 public class RestBasicController {
 	
 	@GetMapping(value = "/hello", produces = "text/plain; charset=utf-8")
 	public String hello() {
-		System.out.println("REST API 호출됨");
+		System.out.println("REST API 실행됨");
 		
 		return "안녕하세요????";
 	}
@@ -67,6 +70,23 @@ public class RestBasicController {
 		
 		return map;
 	}
+	
+	@GetMapping("/getPath/{key}/{code}")
+	public HashMap<String, TestVO> getPath(@PathVariable("key") String key, 
+										   @PathVariable("code") String code) {
+	HashMap<String, TestVO> map = new HashMap<>();
+	map.put("info", new TestVO("인증키", "사원코드") );
+	return map;
+	}
+	
+	@PostMapping("/getContent")
+	public Test2VO getContent(@RequestBody Test2VO vo) {
+		
+		System.out.println(vo.toString());
+		
+		return new Test2VO("홍길동", "내용", "2022-04-08");
+	}
+
 	
 	//////////////////데이터를 받는 방법 ////////////////////////////////
 	
@@ -146,6 +166,48 @@ public class RestBasicController {
 		
 	}
 	
+	////////////////////////////////////////////////////////
+	// jquery학습 후 restAPI확인
 	
+	// produces - json형식으로 보낸다.
+	// @CrossOrigin("*")
+//	@CrossOrigin("http://127.0.0.1:5501") // post방식은 ip:port가 동일해야 기본적으로 요청을 허용하는데, 서버가 다르다면 특정서버의 요청을 허용해야 요청처리를 받을 수 있습니다.
+//	@PostMapping(value = "/ajaxTest01", produces = "application/json")
+//	public ArrayList<RestVO> ajaxTest01(@RequestBody RestVO vo) {
+//		System.out.println(vo.toString());
+//		
+//		ArrayList<RestVO> list = new ArrayList<>();
+//		for(int i = 1; i <= 10; i++) {
+//			RestVO t = RestVO.builder()
+//				  .name("홍길동" + i)
+//				  .id("aa123" + i)
+//				  .num(i)
+//				  .build();
+//			
+//			list.add(t);
+//		}
+//		
+//		return list;
+//	}
+	
+	// xml형식으로 반환 - jackson-xml라이브러리 필요
+	@CrossOrigin("http://127.0.0.1:5501") // post방식은 ip:port가 동일해야 기본적으로 요청을 허용하는데, 서버가 다르다면 특정서버의 요청을 허용해야 요청처리를 받을 수 있습니다.
+	@PostMapping(value = "/ajaxTest01", produces = "application/xml")
+	public ArrayList<RestVO> ajaxTest01(@RequestBody RestVO vo) {
+		System.out.println(vo.toString());
+		
+		ArrayList<RestVO> list = new ArrayList<>();
+		for(int i = 1; i <= 10; i++) {
+			RestVO t = RestVO.builder()
+				  .name("홍길동" + i)
+				  .id("aa123" + i)
+				  .num(i)
+				  .build();
+			
+			list.add(t);
+		}
+		
+		return list;
+	}
 	
 }

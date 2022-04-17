@@ -18,7 +18,7 @@
 						</div>
 					</div>
                     <div class="page_title">게시글 연습 ><span class="page_subtitle">글 상세보기</span></div>
-                    <form name="#####" action="#####" method="post">
+                    <form name="topicModify" action="topicModify" method="post">
                         <div class="full_collum collum">
                             <ul>
                                 <li class="collum_tit">
@@ -32,22 +32,24 @@
                                                 <tr>
                                                     <th>등록일</th>
                                                     <td>
-                                                        <span>2016-01-01</span>
+                                                    	<input readonly th:value="${topicVO.topic_regdate}">
+                                                    	<input type="hidden" name="topic_no" th:value="${topicVO.topic_no}">
+                                                        <!-- <span>[[${topicVO.topic_regdate}]]</span> -->
                                                     </td>
                                                 </tr>
                                                 <tr>
                                                     <th>아이디</th>
-                                                    <td>admin</td>
+                                                    <td><input type="hidden" name="topic_id" th:value="${topicVO.topic_id}">[[${topicVO.topic_id}]]</td>
                                                 </tr>
 
                                                 <tr>
                                                     <th>제목</th>
-                                                    <td colspan="5">오늘은 해가뜨려나?</td>
+                                                    <td colspan="5"><input type="hidden" name="topic_title" th:value="${topicVO.topic_title}">[[${topicVO.topic_title}]]</td>
                                                 </tr>
                                                 <tr>
                                                     <th>내용</th>
                                                     <td colspan="5">
-                                                        <div style="min-height: 300px;">오늘은 비가오려나?
+                                                        <div style="min-height: 300px;"><input type="hidden" name="topic_content" th:value="${topicVO.topic_content}">[[${topicVO.topic_content}]]
                                                         </div>
                                                     </td>
                                                 </tr>
@@ -55,8 +57,8 @@
 
                                             </table>
                                             <div class="btn_area">
-                                                <input type="button" class="save" value="등록하러가기">
-                                            	<input type="button" class="delete" value="전체목록으로">
+                                                <input type="button" class="save"  onclick = "location.href = 'topicReg'" value="등록하러가기">
+                                            	<input type="button" class="delete" onclick = "location.href = 'topicListAll'" value="전체목록으로">
                                                
                                             </div>
                                         </li>

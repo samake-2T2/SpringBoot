@@ -80,9 +80,10 @@
 												<td>[[${vo.topic_id}]]</td>
 												<td>[[${vo.topic_title}]]</td>
 												<td>
-													<a title="상세보기(클릭)" th:href="@{/topic/topicDetail(topic_id=${vo.topic_id})}">[[${vo.topic_content}]]</a>
+													<a title="상세보기(클릭)" th:href="@{/topic/topicDetail(topic_no=${vo.topic_no})}">[[${vo.topic_content}]]</a>
 												</td>
 												<td>[[${vo.topic_regdate}]]</td>
+											
 											</tr>
 										</table>
 

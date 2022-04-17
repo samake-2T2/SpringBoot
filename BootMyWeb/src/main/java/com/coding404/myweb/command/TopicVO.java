@@ -31,5 +31,4 @@ public class TopicVO {
 	@Pattern(regexp = "[0-9]{4}-[0-9]{2}-[0-9]{2}", message = "yyyy년-MM월-dd일 형식입니다.")
 	private String topic_regdate; // 오늘날짜 default
 	
-	
 }

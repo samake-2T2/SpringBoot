@@ -17,6 +17,13 @@ public interface TopicMapper {
 	public ArrayList<TopicVO> getListMe(Criteria cri); // 목록조회
 
 	public int getTotal(Criteria cri); // 전체게시글 수
+	
+	public int getTotalMe(Criteria cri); // 내게시글 수
 
+	public TopicVO getDetail(int topic_no); //상세
+	
+	public int update(TopicVO vo); // 수정
+	
+	public int delete(int topic_no); //삭제
 
 }

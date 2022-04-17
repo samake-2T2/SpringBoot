@@ -29,7 +29,7 @@ public class TopicServiceImpl implements TopicService {
 	@Override
 	public ArrayList<TopicVO> getListMe(Criteria cri) {
 		
-		return null;
+		return topicMapper.getListMe(cri);
 	}
 
 	@Override
@@ -37,6 +37,32 @@ public class TopicServiceImpl implements TopicService {
 		
 		return topicMapper.getTotal(cri);
 	}
+
+	@Override
+	public int getTotalMe(Criteria cri) {
+		
+		return topicMapper.getTotalMe(cri);
+	}
+
+	@Override
+	public TopicVO getDetail(int topic_no) {
+		
+		return topicMapper.getDetail(topic_no);
+	}
+
+	@Override
+	public int update(TopicVO vo) {
+		
+		return topicMapper.update(vo);
+	}
+
+	@Override
+	public int delete(int topic_no) {
+		
+		return topicMapper.delete(topic_no);
+	}
+	
+	
 
 
 
